@@ -14,7 +14,7 @@ import {
 import {
   getAuth,
   onAuthStateChanged
-} from "auth.js";
+} from "./auth.js";
 
 const auth = getAuth();
 

@@ -1,5 +1,5 @@
 // firebase.js offline 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
 
 import {
   initializeFirestore,
@@ -25,17 +25,17 @@ import {
   arrayUnion,
   limit
 
-} from "https://www.gstatic.com/firebasejs/12.13.0/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/12.15.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAwY95NM8QKiRxNHvfxiGrjvhKG16Lpl5E",
-  authDomain: "test-stockflow-offline.firebaseapp.com",
-  projectId: "test-stockflow-offline",
-  storageBucket: "test-stockflow-offline.firebasestorage.app",
-  messagingSenderId: "721689942624",
-  appId: "1:721689942624:web:a29d362e5fccd7e2ce4105",
-  measurementId: "G-67C96ZB39P"
-};
+    apiKey: "AIzaSyBUs10iujGySTIH1c1mK1YDhT3Q0g52yG8",
+    authDomain: "vicky-shop-db.firebaseapp.com",
+    projectId: "vicky-shop-db",
+    storageBucket: "vicky-shop-db.firebasestorage.app",
+    messagingSenderId: "865639144154",
+    appId: "1:865639144154:web:b8295dd4e99ce3dd9163e3",
+    measurementId: "G-KP8Z6X3RZW"
+  };
 
 const app = initializeApp(firebaseConfig);
 

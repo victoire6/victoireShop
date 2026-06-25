@@ -11,10 +11,7 @@ import {
   serverTimestamp
 } from "./firebase.js";
 
-import {
-  getAuth,
-  onAuthStateChanged
-} from "./auth.js";
+import { getAuth, onAuthStateChanged } from "./auth.js";
 
 const auth = getAuth();
 
